@@ -1,0 +1,1 @@
+We have made contact and will be working as a group.

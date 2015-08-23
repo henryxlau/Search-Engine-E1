@@ -1,0 +1,14 @@
+# Name: Michelle Hom
+
+CC = g++
+CFLAGS = -g -Wall 
+LDFLAGS =
+
+
+all : webcrawler
+	
+webcrawler : WebCrawler.cpp
+	$(CC) $(CFLAGS) -o WebCrawler WebCrawler.cpp
+	
+clean:
+	rm -f *.o *~ *.exe
